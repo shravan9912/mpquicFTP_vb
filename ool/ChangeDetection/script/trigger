@@ -1,0 +1,29 @@
+#!/bin/bash
+export PATH=$PATH:/usr/local/go/bin
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/Learning/offlineAgent.py
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/QUIC/
+go run lin.go
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/output
+rm detectionAgent_*
+echo "14" > /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/log/marker.txt
+echo 0 > /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script/DumpDataPointer
+echo 0 > //home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script/RetrainingPacketNum
+for i in $(seq 1 1)
+do
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script && python ./detection.py &
+P1=$!
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/mmModelTrace ./10m.py --scheduler double --rtt 0 --tracefile ../modelDynamic.csv &
+P2=$!
+wait $P1 $P2
+cd /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/output
+rm detectionAgent_*
+echo 0 > /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script/DumpDataPointer
+echo 0 > /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script/CheckNotificationPointer
+echo "hello"
+tim=$(tail -1 /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/ChangeDetection/script/RetrainingPacketNum | awk '{print $1}')
+echo $tim
+time=$(tail -1 /home/shravan/Documents/dronenextwork/new/mpquicFTP_vb/ool/log/client.logs | awk '{print $3}')
+echo $time
+done
+
+

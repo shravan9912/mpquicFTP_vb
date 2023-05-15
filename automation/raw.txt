@@ -1,0 +1,150 @@
+Default training Dir Path:
+Selected Multipath Scheduler: round_robin
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 1.055278 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: round_robin
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 0.944079 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: round_robin
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 2.176358 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: round_robin
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 2.882543 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: low_latency
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 2.719670 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: low_latency
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.214173 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: low_latency
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.060487 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: ecf
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.342369 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: ecf
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.055070 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: blest
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 2.933622 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: blest
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.024201 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: blest
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 2.932410 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: blest
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.270499 sec
+Sent Bytes:  42
+Default training Dir Path:
+Selected Multipath Scheduler: blest
+Sent Bytes:  9
+Data received: 13107200 	|| Time Taken To Download File: 3.129338 sec
+Sent Bytes:  42
+row value -1
+8mbit
+applying netem conditions-------Starts.....
+netem comndtitions applied------Done...
+8mbit
+5mbit
+2ms
+3ms
+1.00%
+1.00%
+round_robin
+4
+3
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+row value 0
+10mbit
+applying netem conditions-------Starts.....
+netem comndtitions applied------Done...
+10mbit
+5mbit
+5ms
+7ms
+20.00%
+20.00%
+low_latency
+3
+3
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+row value 1
+12mbit
+applying netem conditions-------Starts.....
+netem comndtitions applied------Done...
+12mbit
+8mbit
+8ms
+10ms
+15.00%
+15.00%
+ecf
+2
+3
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+row value 2
+14mbit
+applying netem conditions-------Starts.....
+netem comndtitions applied------Done...
+14mbit
+22mbit
+10ms
+4ms
+20.00%
+20.00%
+blest
+5
+3
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
+do_client_action----starts....
+client_action----done....
