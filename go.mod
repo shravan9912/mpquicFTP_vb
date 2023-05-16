@@ -3,11 +3,6 @@ module github.com/shravan9912/mpquicFTP_vb
 go 1.17
 
 require (
-	github.com/shravan9912/mpquic_ml_vb v0.0.0-20230514075053-47996a4d2f75
-	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
-)
-
-require (
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
 	github.com/bifurcation/mint v0.0.0-20210616192047-fd18df995463 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
@@ -20,4 +15,9 @@ require (
 	golang.org/x/crypto v0.9.0 // indirect
 	gonum.org/v1/gonum v0.13.0 // indirect
 	gonum.org/v1/hdf5 v0.0.0-20200504100616-496fefe91614 // indirect
+)
+
+require (
+	github.com/shravan9912/mpquic_ml_vb v0.0.0-20230514075053-47996a4d2f75
+	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 )
