@@ -3,13 +3,13 @@ module github.com/shravan9912/mpquicFTP_vb
 go 1.20
 
 require (
-	github.com/shravan9912/mpquic_ml_vb v0.0.0-20230516113708-dacb9318ef84
+	github.com/shravan9912/mpquic_ml_vb v0.0.0-20230517052450-cb34e6841f1b
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 )
 
 require (
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
-	github.com/bifurcation/mint v0.0.0-20210616192047-fd18df995463 // indirect
+	github.com/bifurcation/mint v0.0.0-20171208133358-a6080d464fb5 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/lucas-clemente/aes12 v0.0.0-20171027163421-cd47fb39b79f // indirect
 	github.com/lucas-clemente/fnv128a v0.0.0-20160504152609-393af48d3916 // indirect
