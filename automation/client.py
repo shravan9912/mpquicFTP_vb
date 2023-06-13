@@ -67,7 +67,7 @@ def parsedatatocsv():
                     #print(sindex)  
                     #print(element[sindex+29:sindex+36])
                     seco=element[sindex+29:sindex+36]
-         rows = [ [path1_bw,path1_bw,path2_bw, path1_delay,path2_delay,path1_loss,path2_loss, scheduler_name,no_of_itr,file_size,seco]] 
+         rows = [ [path1_bw,path1_loss,path1_delay, path2_bw,path2_loss, path2_delay, scheduler_name,no_of_itr,file_size,seco]] 
          with open('outputfile.csv', 'a') as csvfile:
               csvwriter = csv.writer(csvfile)
               csvwriter.writerows(rows)
@@ -84,7 +84,8 @@ def parsedatatocsv():
 
 def do_client_action():
     print("do_client_action----starts....")
-    os.system('client/./client --scheduler='+scheduler_name+' --action=2 --file_name='+file_size+'.txt')
+    #os.environ.get('PROJECT_HOME_DIR') # to get env variables
+    os.system('./client --scheduler='+scheduler_name+' --action=2 --file_name='+file_size+'.txt')
     parsedatatocsv()
     print("client_action----done....")
 

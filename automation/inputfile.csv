@@ -1,5 +1,4 @@
 path1_bw,path1_loss,path1_delay,path2_bw,path2_loss,path2_delay,scheduler_name,no_of_itr,file_size
-8mbit,1.00%,2ms,5mbit,2.00%,3ms,round_robin,4,2MB
-10mbit,20.00%,5ms,5mbit,6.00%,7ms,low_latency,3,2MB
-12mbit,15.00%,8ms,8mbit,9.00%,10ms,ecf,2,2MB
-14mbit,20.00%,10ms,22mbit,3.00%,4ms,blest,5,2MB
+2mbit,1.5%,100ms,50mbit,0.0001%,20ms,peekaboo,120,2MB
+2mbit,1.5%,100ms,50mbit,1.5%,20ms,peekaboo,120,2MB
+2mbit,1.5%,100ms,50mbit,3.00%,20ms,peekaboo,120,2MB
