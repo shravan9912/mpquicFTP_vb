@@ -1,4 +1,4 @@
-set -a && source envs/sample.env && set +a
+#set -a && source envs/sample.env && set +a
 while true
 do
 	./server
