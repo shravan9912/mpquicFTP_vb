@@ -13,7 +13,7 @@ if '__main__' == __name__:
     p = Popen("sysctl -w %s=%s" % (key, value),
             shell=True, stdout=PIPE, stderr=PIPE)
     stdout, stderr = p.communicate()
-    print "stdout=", stdout, "stderr=", stderr
+    print("stdout=", stdout, "stderr=", stderr)
 
     h1 = net.addHost('h1')
     h2 = net.addHost('h2')
