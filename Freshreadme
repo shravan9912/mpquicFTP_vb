@@ -1,0 +1,11 @@
+1. download go
+2. extract and keep in folder
+and locate that to the terminal from where we run the app code by using bellow
+3. export PATH=$PATH:/usr/local/go/bin #type this into that terminal #replace the path with your pc go folder path
+4. go version # shows verion of go than its installed
+5. sudo apt-get install git 
+6. git clone <project path> #download prject from git
+7. go into project folder open terminal and run step 3
+8. go build server.go #this will try to compile server.go #it will load all back end files
+
+
