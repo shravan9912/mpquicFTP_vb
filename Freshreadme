@@ -14,4 +14,28 @@ and locate that to the terminal from where we run the app code by using bellow
 12. do step 8 again this time you will get compiled filed without errors
 13. repeat step 8 for client.go
 
+============================================================================
+1. chnage environment variable in mpquicFTP_vb/envs/mininet.env --> set the current terminal path into it
+2. sudo apt-get install wondershaper #This will install wondershaper
+3. set -a && source envs/sample.env && set +a #set environment variabless
+4. sudo -i #takes you to the root as admin
+5. cd main dir path
+6 do step 4 again
+cd automation
+bash main.sh
+You will get mininet
+on mininet--> xterm h1 h1 h2
+on xterm h2 -->
+  do step 3
+  bash server.sh # starts server
+on xterm h1
+   do step 3 
+   bash netem.sh #initialize netem
+   python3 run.py > raw.txt #perform the downloads
+====================================================================================
+input.csv --> give the network conditions file size scheduler and iteration etc.
+raw.txt ---> mediator file
+output.csv ----> final results for graphs
+
+
 
