@@ -13,7 +13,8 @@ and locate that to the terminal from where we run the app code by using bellow
 
 12. do step 8 again this time you will get compiled filed without errors
 13. repeat step 8 for client.go
-
+14 sudo apt-get install mininet
+15 sudo apt-get xterm
 ============================================================================
 1. chnage environment variable in mpquicFTP_vb/envs/mininet.env --> set the current terminal path into it
 2. sudo apt-get install wondershaper #This will install wondershaper
