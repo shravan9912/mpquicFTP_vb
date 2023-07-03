@@ -15,6 +15,9 @@ and locate that to the terminal from where we run the app code by using bellow
 13. repeat step 8 for client.go
 14 sudo apt-get install mininet
 15 sudo apt-get xterm
+16 sudo apt install python3-pip
+17 sudo pip3 install pandas or sudo apt install python3-pip
+
 ============================================================================
 1. chnage environment variable in mpquicFTP_vb/envs/mininet.env --> set the current terminal path into it
 2. sudo apt-get install wondershaper #This will install wondershaper
